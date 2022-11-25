@@ -10,7 +10,7 @@ export const Character = props => {
 	
 	return (
 
-	
+
 		<div className="container-fluid d-flex mt-2 ">
 				<div className="col d-flex justify-content-center mb-3">
 					<img src={`https://starwars-visualguide.com/assets/img/characters/${store.peopleList[params.index].uid}.jpg`} />

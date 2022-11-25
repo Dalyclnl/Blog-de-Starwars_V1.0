@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
-import { Context } from "../store/appContext";import
+import { Context } from "../store/appContext";
 
 
 export const Vehicle = props => {
@@ -22,10 +22,10 @@ export const Vehicle = props => {
 				<div>
 					<hr></hr>
 				</div>
-				<div className="info mx-auto">
+				<div className="info">
 					<div>
 						<p><strong>Crew:</strong></p>
-						<p className="">{store.vehicleInfoList[params.index].crew}</p>
+						<p className="detail">{store.vehicleInfoList[params.index].crew}</p>
 					</div>
 					<div>
 					<p><strong>Passengers:</strong></p>

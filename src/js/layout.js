@@ -5,7 +5,7 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Single } from "./views/single";
 import { Character } from "./views/character";
-import { Vehicle } from "./views/vehicles";
+import { Vehicle } from "./views/vehicle";
 import { Starship } from "./views/starship";
 import { Planet } from "./views/planet";
 import injectContext from "./store/appContext";
