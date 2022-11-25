@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
-import { Context } from "../store/appContext";
-
+import { Context } from "../store/appContext";import
 
 
 export const Vehicle = props => {
@@ -11,11 +10,11 @@ export const Vehicle = props => {
 
 	return (
 
-	
 		<div className="container-fluid d-flex mt-2 ">
 				<div className="col d-flex justify-content-center mb-3">
-				<img src={`https://starwars-visualguide.com/assets/img/vehicles/${store.vehicleList[params.index].uid}.jpg`} />
-				</div>
+					<img src={`https://starwars-visualguide.com/assets/img/vehicles/${store.vehicleList[params.index].uid}.jpg`} />
+					</div>
+
 				<div className="col d-inline justify-content-center">
 					<h1>{store.vehicleList[params.index].name}</h1>
 					<p className="desc pe-3 me-3 justify-content-center"> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
